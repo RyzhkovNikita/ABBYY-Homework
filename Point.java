@@ -1,4 +1,4 @@
-package D;
+package ABBYYHomework;
 
 import java.util.Objects;
 
@@ -6,6 +6,19 @@ public class Point {
 
     private int x;
     private int y;
+
+    int getX() {
+	return x;
+    }
+
+    int getY() {
+	return y;
+    }
+
+    Point (int x, int y) {
+	this.x = x;
+	this.y = y;
+    }
 
     @Override
     public boolean equals(Object o) {
